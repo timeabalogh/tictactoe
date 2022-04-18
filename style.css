@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 1rem;
+}
+
+button {
+    padding: 0.5rem;
+    background-color: #00d6d3;
+    border: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 11pt;
+    margin-top: 2rem;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 18rem;
+
+}
+
+.field {
+    width: 5rem;
+    height: 5rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ffffff;
+}
+
+#next {
+    width: 5rem;
+    height: 5rem;
+    background-color: #f0f0f0;
+    margin-top: 1rem;
+}
+
+#victor {
+    margin-top: 2rem;
+    font-weight: bold;
+}
