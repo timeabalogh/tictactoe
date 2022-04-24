@@ -34,6 +34,14 @@ button {
     border: 1px solid #ffffff;
 }
 
+.hidden {
+    display: none;
+}
+
+.visible {
+    color: #00d6d3;
+}
+
 #next {
     width: 5rem;
     height: 5rem;
