@@ -129,7 +129,8 @@ function clearUi() {
     boardState.fill(null);
     victor.className = 'hidden';
     strike.className = 'strike';
-
+    turn = playerX;
+    nextPlayer.innerText = '';
     setHoverText();
 };
 
